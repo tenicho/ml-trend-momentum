@@ -1,0 +1,49 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# SECRETS — never commit
+# ─────────────────────────────────────────────────────────────────────────────
+.fmp_token
+.sharadar_token
+*.token
+.env
+*.key
+*.pem
+
+# ─────────────────────────────────────────────────────────────────────────────
+# DATA — ~8GB and fully regenerable from sh_scan.py --build
+# ─────────────────────────────────────────────────────────────────────────────
+data_sharadar/
+data/
+*.parquet
+*.pkl
+*.h5
+*.feather
+
+# ─────────────────────────────────────────────────────────────────────────────
+# ARCHIVE — superseded FMP-era code, old handoffs, prior findings, 2.3GB of
+# stale panels. Kept on disk for provenance, deliberately out of the repo.
+# ─────────────────────────────────────────────────────────────────────────────
+_archive/
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Python / Jupyter
+# ─────────────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# ─────────────────────────────────────────────────────────────────────────────
+# OS
+# ─────────────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ─────────────────────────────────────────────────────────────────────────────
+# NOT ignored, on purpose:
+#   notebooks/*.ipynb   executed, with outputs and charts embedded
+#   report/figures/*.png  publication figures written by the notebooks
+#   docs/*.md           reference material
+#   sh_*.py             the live pipeline
+# ─────────────────────────────────────────────────────────────────────────────
