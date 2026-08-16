@@ -10,7 +10,7 @@ analyst data, no alternative data.
 
 **Headline result: the ranking works; the portfolio has not clearly beaten the index risk-adjusted.**
 Rank-IC is **+0.0487** in development (Newey–West t = 5.58, corrected for the 40-day label overlap)
-and **+0.039** out of sample (t = 2.07). The book returned +15.7%/yr against SPY's +8.8% in
+and **+0.044** out of sample (t = 2.30). The book returned +15.7%/yr against SPY's +8.8% in
 development and +37.4% against +22.6% in the holdout — but out of sample its excess Sharpe of 1.17
 sits between SPY's 1.18 and the MTUM momentum ETF's 1.12, a three-way tie.
 
